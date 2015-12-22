@@ -10,11 +10,11 @@
 		ECC36CB91C252DCF00C0A162 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC36CB81C252DCF00C0A162 /* main.m */; };
 		ECC36CBC1C252DCF00C0A162 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC36CBB1C252DCF00C0A162 /* AppDelegate.m */; };
 		ECC36CBF1C252DCF00C0A162 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC36CBE1C252DCF00C0A162 /* ViewController.m */; };
-		ECC36CC21C252DCF00C0A162 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC36CC01C252DCF00C0A162 /* Main.storyboard */; };
 		ECC36CC41C252DCF00C0A162 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECC36CC31C252DCF00C0A162 /* Assets.xcassets */; };
 		ECC36CC71C252DCF00C0A162 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC36CC51C252DCF00C0A162 /* LaunchScreen.storyboard */; };
 		ECC36CD21C252DCF00C0A162 /* DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC36CD11C252DCF00C0A162 /* DemoTests.m */; };
 		ECC36CDD1C252DCF00C0A162 /* DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC36CDC1C252DCF00C0A162 /* DemoUITests.m */; };
+		ECC36CEF1C25336E00C0A162 /* UINavigationBar+BackgroundColor.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC36CEE1C25336E00C0A162 /* UINavigationBar+BackgroundColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,6 @@
 		ECC36CBB1C252DCF00C0A162 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		ECC36CBD1C252DCF00C0A162 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		ECC36CBE1C252DCF00C0A162 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		ECC36CC11C252DCF00C0A162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ECC36CC31C252DCF00C0A162 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECC36CC61C252DCF00C0A162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECC36CC81C252DCF00C0A162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +50,8 @@
 		ECC36CD81C252DCF00C0A162 /* DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECC36CDC1C252DCF00C0A162 /* DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoUITests.m; sourceTree = "<group>"; };
 		ECC36CDE1C252DCF00C0A162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECC36CED1C25336E00C0A162 /* UINavigationBar+BackgroundColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+BackgroundColor.h"; sourceTree = "<group>"; };
+		ECC36CEE1C25336E00C0A162 /* UINavigationBar+BackgroundColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+BackgroundColor.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,11 +106,12 @@
 				ECC36CBB1C252DCF00C0A162 /* AppDelegate.m */,
 				ECC36CBD1C252DCF00C0A162 /* ViewController.h */,
 				ECC36CBE1C252DCF00C0A162 /* ViewController.m */,
-				ECC36CC01C252DCF00C0A162 /* Main.storyboard */,
 				ECC36CC31C252DCF00C0A162 /* Assets.xcassets */,
 				ECC36CC51C252DCF00C0A162 /* LaunchScreen.storyboard */,
 				ECC36CC81C252DCF00C0A162 /* Info.plist */,
 				ECC36CB71C252DCF00C0A162 /* Supporting Files */,
+				ECC36CED1C25336E00C0A162 /* UINavigationBar+BackgroundColor.h */,
+				ECC36CEE1C25336E00C0A162 /* UINavigationBar+BackgroundColor.m */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -245,7 +247,6 @@
 			files = (
 				ECC36CC71C252DCF00C0A162 /* LaunchScreen.storyboard in Resources */,
 				ECC36CC41C252DCF00C0A162 /* Assets.xcassets in Resources */,
-				ECC36CC21C252DCF00C0A162 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +274,7 @@
 				ECC36CBF1C252DCF00C0A162 /* ViewController.m in Sources */,
 				ECC36CBC1C252DCF00C0A162 /* AppDelegate.m in Sources */,
 				ECC36CB91C252DCF00C0A162 /* main.m in Sources */,
+				ECC36CEF1C25336E00C0A162 /* UINavigationBar+BackgroundColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +310,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		ECC36CC01C252DCF00C0A162 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ECC36CC11C252DCF00C0A162 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		ECC36CC51C252DCF00C0A162 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -414,6 +408,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.com.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +420,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.com.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +494,7 @@
 				ECC36CE31C252DCF00C0A162 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ECC36CE41C252DCF00C0A162 /* Build configuration list for PBXNativeTarget "DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +503,7 @@
 				ECC36CE61C252DCF00C0A162 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ECC36CE71C252DCF00C0A162 /* Build configuration list for PBXNativeTarget "DemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +512,7 @@
 				ECC36CE91C252DCF00C0A162 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
